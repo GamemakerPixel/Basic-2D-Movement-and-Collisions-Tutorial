@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Wall.tscn" type="PackedScene" id=2]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 512, 300 )
+speed = 250
+
+[node name="Wall" parent="." instance=ExtResource( 2 )]
+position = Vector2( 272.466, 161.782 )
+
+[node name="Wall2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 242.545, 500.457 )
+
+[node name="Wall3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 764.733, 444.842 )
+
+[node name="Wall4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 780.466, 145.406 )

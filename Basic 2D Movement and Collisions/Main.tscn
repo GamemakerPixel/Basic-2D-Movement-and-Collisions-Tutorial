@@ -6,17 +6,17 @@
 [node name="Main" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 512, 300 )
+position = Vector2( 521.645, 253.603 )
 speed = 250
 
 [node name="Wall" parent="." instance=ExtResource( 2 )]
-position = Vector2( 272.466, 161.782 )
+position = Vector2( 213.893, 132.668 )
 
 [node name="Wall2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 242.545, 500.457 )
+position = Vector2( 212.99, 480.13 )
 
 [node name="Wall3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 764.733, 444.842 )
+position = Vector2( 835.715, 480.13 )
 
 [node name="Wall4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 780.466, 145.406 )
+position = Vector2( 832.105, 132.668 )
